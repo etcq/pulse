@@ -1,0 +1,358 @@
+@media (max-width: 1024px) {
+    .container {
+        width: 800px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 720px;
+    }
+    
+    .promo {
+        min-height: 500px;
+        padding-bottom: 50px;
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__icons {
+            margin-top: 30px;
+            width: 380px;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 18px;
+            margin-top: 8px;
+        }
+        &__link {
+            font-size: 13px;
+            margin-top: 13px;
+        }
+    }
+
+    .header {
+        &__logo {
+            width: 25%;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px ;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+            margin-right: 10px;
+        }
+    
+    }
+    .button {
+        &_main {
+            margin-top: 40px;
+        }
+    }
+
+    .excellence {
+        padding: 40px 0 48px 0;
+        &__content {
+            margin-top: 40px;
+        }
+        &__descr {
+            margin-top: 25px;
+        }
+    }
+
+    .carousel {
+        .container {
+            width: 520px;
+        }
+        img {
+            width: 100%;
+            height: 70%;
+        }
+    }
+
+    .catalog {
+        &__tab {
+            width: 150px;
+        }
+    }
+
+    .review {
+        &-item {
+            &__avatar {
+                margin-right: 12px;
+            }
+            &__descr {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 400px;
+    }
+    
+    .header {
+        &__official {
+            display: none;
+        }
+        &__logo {
+            width: 38%;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items:center;
+            margin-top: 35px;
+        }
+        &__header {
+            font-size: 28px;
+        }
+        &__subheader {
+            font-size: 16px;
+            margin-top: 6px;
+        }
+    }
+    .excellence {
+        &__header {
+            font-size: 28px;
+        }
+        &__content {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5px;
+        }
+        &__icon {
+            margin-top: 25px;
+        }
+        &__descr {
+            margin: 5px 0 5px 0;
+        }
+    }
+
+    .carousel {
+        .container {
+            width: 250px;
+        }
+        img {
+            width: 100%;
+            height: 70%;
+        }
+    }
+
+    .catalog {
+        .catalog__tab {
+            width: 120px;
+            height: 50px;
+            font-size: 12px;
+        }
+        .catalog__content {
+            justify-content: center;
+        }
+    }
+
+    .review {
+        &-item {
+            flex-direction: column;
+            margin-top: 50px;
+            &__avatar {
+                margin-bottom: 15px;
+                margin-right: 0;
+            }
+            &__wrapper {
+                width: 390px;
+            }
+            &__name {
+                text-align: center;
+            }
+            &__marathon {
+                text-align: center;
+            }
+        }
+    }
+}
+@media (max-width: 375px) {
+    .container {
+        width: 340px;
+        font-size: 13px;
+    }
+    
+    .header {
+        &__official {
+            display: none;
+        }
+        &__logo {
+            width: 38%;
+        }
+    }
+    .promo {
+        min-height: 300px;
+        &__icons {
+            width: 340px;
+            margin-top: 20px;
+        }
+        &__icon {
+            width: 33%;
+        }
+
+        &__wrapper {
+            align-items:center;
+            margin-top: 30px;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__subheader {
+            font-size: 13px;
+            margin-top: 0px;
+        }
+
+    }
+    .excellence {
+        &__header {
+            font-size: 24px;
+        }
+    }
+    .carousel {
+        .container {
+            width: 230px;
+        }
+        img {
+            width: 100%;
+            height: 70%;
+        }
+    }
+
+    .catalog {
+        .catalog__tab {
+            width: 100px;
+            height: 50px;
+            font-size: 9px;
+        }
+        .catalog__content {
+            justify-content: center;
+        }
+    }
+
+    .review {
+        &-item {
+            flex-direction: column;
+            margin-top: 50px;
+            &__avatar {
+                margin-bottom: 15px;
+                margin-right: 0;
+            }
+            &__wrapper {
+                width: 350px;
+            }
+            &__name {
+                text-align: center;
+            }
+            &__marathon {
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    .container {
+        width: 310px;
+    }
+    .header {
+        &__phone {
+            font-size: 12px;
+        }
+        .button {
+            width: 130px;
+            height: 27px;
+            font-size: 10px;
+        }
+    }
+    .promo {
+        min-height: 300px;
+        &__icons {
+            width: 300px;
+            margin-top: 17px;
+        }
+        &__icon {
+            width: 33%;
+            font-size: 12px;
+            img {
+                width: 38px;
+                margin-bottom: 10px;
+            }
+        }
+        &__wrapper {
+            align-items:center;
+            margin-top: 30px;
+        }
+        &__link {
+            font-size: 11px;
+        }
+        .button_main {
+            width: 280px;
+        }
+    }
+
+    .carousel {
+        .container {
+            width: 150px;
+        }
+        img {
+            width: 100%;
+            height: 70%;
+        }
+        .prev, .next {
+            img {
+                width: 20px;
+                height: 30px;
+            }
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        .catalog__tab {
+            width: 250px;
+            height: 50px;
+            font-size: 16px;
+            margin: 5px auto;
+        }
+        .catalog__content {
+            justify-content: center;
+            margin-top: 30px;
+        }
+    }
+
+    .review {
+        &-item {
+            flex-direction: column;
+            margin-top: 50px;
+            &__avatar {
+                margin-bottom: 15px;
+                margin-right: 0;
+            }
+            &__wrapper {
+                width: 270px;
+            }
+            &__name {
+                text-align: center;
+            }
+            &__marathon {
+                text-align: center;
+            }
+        }
+    }
+}

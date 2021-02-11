@@ -1,0 +1,40 @@
+.review {
+	padding-bottom: 71px;
+	&-item {
+		display: flex;
+		justify-content: center;
+		margin-top: 100px;
+		align-items: center;
+		&:nth-child(2) {
+			margin-top: 70px;
+		}
+
+		&__avatar {
+			display: flex;
+			justify-content: center;
+			width: 169px;
+			height: 169px;
+			margin-right: 60px;
+		}
+		&__wrapper {
+		   width: 650px;
+		}
+		&__name {
+			font-size: 18px;
+			font-weight: bold;
+			color: #0d0d0d;
+		}
+		&__marathon {
+			font-size: 14px;
+			font-weight: 300;
+			color: #646464;
+			line-height: 27px;
+		}
+		&__descr {
+			font-size: 16px;
+			font-weight: 300;
+			color: #0d0d0d;
+			margin-top: 19px;
+		}
+	}
+}    

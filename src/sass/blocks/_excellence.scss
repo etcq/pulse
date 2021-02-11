@@ -1,0 +1,49 @@
+.excellence {
+    padding: 70px 0 78px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__header {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    &__content {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        width: 230px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        color: #0d0d0d;
+        line-height: normal;
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        };
+    }
+    &__descr {
+        margin-top: 38px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    a {
+        color: #ff0000;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    
+
+
+
+}
+
